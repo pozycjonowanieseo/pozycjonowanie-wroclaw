@@ -820,6 +820,7 @@
         background-color: #f9f9f9;
         padding: calc(20px + (40 - 20) * ((100vw - 320px) / (1920 - 320))) calc(25px + (50 - 25) * ((100vw - 320px) / (1920 - 320))); }
         .reviev .reviev__content__text__container .reviev-text {
+          font-style: italic;
           font-family: "Roboto Slab", sans-serif;
           color: #777;
           font-weight: 400;
@@ -951,6 +952,10 @@
       text-transform: uppercase;
       letter-spacing: -0.45px;
       margin-bottom: 30px; }
+    .top-footer__column__ul h4{
+      color:white;
+      margin-bottom: 5px;
+    }
     .top-footer__column .fa-angle-down {
       display: none; }
     .top-footer__column__ul .top-footer__li-element {
@@ -1170,6 +1175,7 @@
       .reviev .reviev__content__text__container {
         padding: 40px 50px; }
         .reviev .reviev__content__text__container .reviev-text {
+          font-style: italic;
           font-size: calc(22rem / 16); }
         .reviev .reviev__content__text__container .reviev-name {
           font-size: calc(18rem / 16); }
@@ -1196,6 +1202,7 @@
 
 @media only screen and (max-width: 1400px) {
   .reviev .reviev__content__text__container .reviev-text {
+    font-style: italic;
     font-family: "Roboto Slab", sans-serif;
     color: #777;
     font-weight: 400;
@@ -1332,10 +1339,14 @@
     .reviev .reviev__content__circle {
       margin: 0 0 10px; }
     .reviev .reviev__content__text__container .reviev-text {
+      font-style: italic;
       text-align: left; }
     .reviev .reviev__content__text__container .reviev-name {
       text-align: left;
       margin-top: 10px; }
+    .reviev__content__text__container p{
+      font-style: italic;
+    }
     .reviev .reviev__content__text__arrow1 {
       display: none; }
     .reviev .reviev__content__text__arrow2 {
