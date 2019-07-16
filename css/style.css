@@ -16,7 +16,7 @@
   -o-transition: .3s ease-out;
   transition: .3s ease-out; }
   .navbar-wrapper .top-container {
-    display: -webkit-box;
+    
     display: -webkit-flex;
     display: -ms-flexbox;
     display: flex;
@@ -631,7 +631,7 @@
     -webkit-align-items: center;
     -ms-flex-align: center;
     align-items: center;
-    max-width: 1000px;
+    max-width: 100%;
     padding: calc(40px + (80 - 40) * ((100vw - 320px) / (1920 - 320))) 30px;
     margin: 0 auto;
     text-align: center; }
