@@ -1642,3 +1642,42 @@ body[data-aos-easing="custom-easing"] [data-aos], [data-aos][data-aos][data-aos-
         align-content: space-between;
         margin-right: calc(35px + (55 - 35) * ((100vw - 320px) / (1920 - 320)));
         max-width:100%; }
+        .value-wrapper .value__features .value__feature:last-child {
+          margin-right: 0; }
+        .value-wrapper .value__features .value__feature .value__picture {
+          display: -webkit-box;
+          display: -webkit-flex;
+          display: -ms-flexbox;
+          display: flex;
+          -webkit-box-pack: center;
+          -webkit-justify-content: center;
+          -ms-flex-pack: center;
+          justify-content: center;
+          -webkit-box-align: center;
+          -webkit-align-items: center;
+          -ms-flex-align: center;
+          align-items: center;
+          width: 75%;
+
+          margin: 0 auto; }
+          .value-wrapper .value__features .value__feature .value__picture img {
+            display: block; 
+                display: block;
+                width: 100%;
+                border-radius: 50%;
+                transform: scale(.8);
+              }
+        .value-wrapper .value__features .value__feature .value__desctription__title {
+          color: #222;
+          font-size: calc(15px + (18 - 15) * ((100vw - 320px) / (1920 - 320)));
+          padding: calc(20px + (37 - 20) * ((100vw - 320px) / (1920 - 320))) 0 5px;
+          font-weight: 700;
+          text-transform: uppercase;
+          letter-spacing: -0.45px; }
+        .value-wrapper .value__features .value__feature .value__desctription .value__p-style {
+          font-family: "Roboto Slab", sans-serif;
+          color: #777;
+          font-weight: 400;
+          letter-spacing: -0.35px;
+          font-size: calc(12px + (14 - 12) * ((100vw - 320px) / (1920 - 320)));
+          line-height: 24px; }
