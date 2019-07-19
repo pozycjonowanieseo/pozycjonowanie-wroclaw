@@ -3,6 +3,9 @@
   background-color: #fff;
   font-family: "Montserrat", sans-serif;
   overflow: hidden; }
+.faq_img{
+  width:50%;
+}
 
 .navbar-wrapper {
   position: fixed;
