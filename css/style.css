@@ -4,9 +4,26 @@
   font-family: "Montserrat", sans-serif;
   overflow: hidden; }
 .faq_img{
+  margin: 15px 0 0 ;
   width:50%;
 }
-
+.faq_head{
+  font-size: 2em;
+  font-weight: bold;
+}
+.value-faq{
+  padding: 15px !important;
+}
+.faq_box{
+  padding: 20px 20px;
+}
+.faq_heading{
+  padding: 5px;
+}
+.bg_gmf{
+  background-image: url("https://inpozycjonowanie.pl/wp-content/uploads/2017/12/h2-timeline-1.jpg?id=4161");
+  max-width: 100% !important;
+}
 .navbar-wrapper {
   position: fixed;
   z-index: 5;
