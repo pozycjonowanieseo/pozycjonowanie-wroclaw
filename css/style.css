@@ -13,6 +13,10 @@
 }
 .value-faq{
   padding: 15px !important;
+
+}
+.width100{
+  max-width: 100% !important;
 }
 .faq_box{
   padding: 20px 20px;
@@ -22,7 +26,7 @@
 }
 .bg_gmf{
   background-image: url("https://inpozycjonowanie.pl/wp-content/uploads/2017/12/h2-timeline-1.jpg?id=4161");
-  max-width: 100% !important;
+
 }
 .navbar-wrapper {
   position: fixed;
@@ -788,7 +792,7 @@
     -webkit-align-items: center;
     -ms-flex-align: center;
     align-items: center;
-    max-width: 1000px;
+
     margin-bottom: 40px; }
     .reviev .reviev__content__circle {
       display: -webkit-box;
@@ -869,7 +873,9 @@
         transform: translateX(-25%) rotate(180deg);
         margin-right: 20px;
         height: 25px; }
-
+.reviev__content__localseo img{
+  width: 70%;
+}
 .cta-section {
   display: -webkit-box;
   display: -webkit-flex;
