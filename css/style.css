@@ -44,6 +44,9 @@
 .gmf_box{
 z-index: 2;
 }
+.gmf_box h2{
+font-size: 2.5em;
+}
 .bg_gmf p{
   font-style: italic;
 }
